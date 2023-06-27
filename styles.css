@@ -1,0 +1,62 @@
+:root {
+	--color1: ;
+}
+
+body {
+	margin: 0;
+	font-family: 'Roboto', Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.logo-holder {
+	background-image: url("./images/banner.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.logo {
+	padding: 24px 0px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	backdrop-filter: blur(3px);
+	border-radius: 20px;
+}
+
+.navbar {
+	top: 0;
+	position: sticky;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: black;
+	overflow: hidden;
+}
+
+.navbar a {
+	color: white;
+	text-align: center;
+	padding: 12px 33px;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.navbar a:hover {
+	color: black;
+	background-color: lightgrey;
+}
+
+.content-section {
+	padding: 30px 145px 15px 145px;
+}
+
+.content-section p {
+	text-align: justify;
+	font-size: 20px;
+}
